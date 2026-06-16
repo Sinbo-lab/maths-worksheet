@@ -2723,7 +2723,7 @@ const QUESTIONS = [
     num: 15,
     text: 'If u = (-3, x) and v = (x, y - 2), what is the value of y so that u + v = 3u - 0.5v?',
     opts: ['1/2', '-10/3', '-4', '-22/3'],
-    answer: 3,
+    answer: 2,
     diff: 'hard',
     explain: 'Let us simplify the vector equation first by grouping like terms:\nu + v = 3u - 0.5v => v + 0.5v = 3u - u => 1.5v = 2u => 3v = 4u.\nNow express this in component form:\n4u = 4 * (-3, x) = (-12, 4x)\n3v = 3 * (x, y - 2) = (3x, 3y - 6)\nEquating the x-components:\n-12 = 3x => x = -4\nEquating the y-components:\n4x = 3y - 6\nSubstitute x = -4 into the equation:\n4(-4) = 3y - 6 => -16 = 3y - 6 => -10 = 3y => y = -10/3.'
   },
@@ -2783,7 +2783,7 @@ const QUESTIONS = [
     num: 21,
     text: 'Suppose vec(A) = 3i - 4j and vec(B) is a vector such that the angle between them is π/3. If vec(u) is a unit vector in the direction of vec(B), find vec(A) • (vec(A) - 2*vec(u)).',
     opts: ['20', '15', '25', '10'],
-    answer: 1,
+    answer: 0,
     diff: 'hard',
     explain: 'Let us expand the expression using dot product distribution:\nvec(A) • (vec(A) - 2*vec(u)) = vec(A) • vec(A) - 2*(vec(A) • vec(u)) = |vec(A)|² - 2*(vec(A) • vec(u)).\nCalculate the magnitude squared of vec(A): |vec(A)|² = 3² + (-4)² = 9 + 16 = 25.\nNow calculate vec(A) • vec(u) using the geometric formula: |vec(A)| * |vec(u)| * cos(θ).\nSince vec(u) is a unit vector, |vec(u)| = 1. The angle θ is given as π/3 (60°).\nvec(A) • vec(u) = √25 * 1 * cos(60°) = 5 * 1 * 0.5 = 2.5.\nSubstitute these values back into our expanded equation: 25 - 2*(2.5) = 25 - 5 = 20.'
   },
