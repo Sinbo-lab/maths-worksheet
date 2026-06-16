@@ -2703,7 +2703,7 @@ const QUESTIONS = [
     num: 13,
     text: 'If (0, 0), (0, -2√3) and (3, -√3) represent the vertices of a triangle, what is the interior angle at (0, -2√3)?',
     opts: ['30°', '60°', '150°', '120°'],
-    answer: 0,
+    answer: 1,
     diff: 'hard',
     explain: 'Let the vertices be O(0,0), A(0, -2√3), and B(3, -√3). We need to find the angle at vertex A. Let us find the two vectors originating from vertex A:\nVector AB = B - A = (3 - 0, -√3 - (-2√3)) = (3, √3)\nVector AO = O - A = (0 - 0, 0 - (-2√3)) = (0, 2√3)\nNow use the dot product formula cos(θ) = (AB • AO) / (|AB| * |AO|):\nAB • AO = (3)(0) + (√3)(2√3) = 0 + 6 = 6\n|AB| = √(3² + (√3)²) = √(9 + 3) = √12 = 2√3\n|AO| = √(0² + (2√3)²) = √12 = 2√3\ncos(θ) = 6 / (2√3 * 2√3) = 6 / 12 = 1/2.\nSince cos(θ) = 1/2, the interior angle θ is 60°.'
   },
